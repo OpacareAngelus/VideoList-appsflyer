@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="searching_field_size">68dp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="preview_gif_size">180dp</dimen>
+    <dimen name="ic_btn_size">56dp</dimen>
+    <dimen name="item_height">140dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+</resources>

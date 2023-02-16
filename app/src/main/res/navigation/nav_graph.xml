@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/fragmentListVideo">
+
+    <fragment
+        android:id="@+id/fragmentListVideo"
+        android:name="test.videolist.activity.fragmentListVideo.FragmentListVideo"
+        android:label="FragmentListVideo" >
+        <action
+            android:id="@+id/action_fragmentListVideo_to_fragmentVideoDetails"
+            app:destination="@id/fragmentVideoDetails" />
+        <action
+            android:id="@+id/action_fragmentListVideo_to_fragmentWebView"
+            app:destination="@id/fragmentWebView" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentVideoDetails"
+        android:name="test.videolist.activity.fragmentListVideo.fragmentVideoDetails.FragmentVideoDetails"
+        android:label="FragmentVideoDetails" >
+        <argument
+            android:name="video"
+            app:argType="test.videolist.model.VideoItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentWebView"
+        android:name="test.videolist.activity.fragmentListVideo.fragmentWebView.FragmentWebView"
+        android:label="FragmentWebView" />
+</navigation>

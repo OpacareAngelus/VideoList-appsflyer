@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerViewVideoCommentItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_small"
+    android:background="@drawable/frame_rounded">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCommentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_margin="@dimen/margin_small"
+        android:text="@string/text_field"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VideoList</string>
+    <string name="search_video">Search Video</string>
+    <string name="video">video</string>
+    <string name="video_rating_tool_tip">video rating</string>
+    <string name="text_field">text field</string>
+    <string name="write_comment">Write comment</string>
+    <string name="category_mushroom">Mushroom</string>
+    <string name="category_termite">Termite</string>
+    <string name="category_animals">Animals</string>
+    <string name="category_my_fav">My Favorites</string>
+</resources>
